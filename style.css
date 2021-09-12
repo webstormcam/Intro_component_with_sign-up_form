@@ -19,12 +19,14 @@ body{
 
 #into_words{
 text-align: center;
+margin-top: 6rem;
 }
 
 h1{
     font-size: 1.4rem;
     font-weight: 600;
     color: #fff;
+    line-height: 1.8rem;
 }
 
 #into_words p{
@@ -33,6 +35,8 @@ h1{
     line-height: 1.3rem;
     padding-left: 3.5rem;
     padding-right:3.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 #payment_section{
