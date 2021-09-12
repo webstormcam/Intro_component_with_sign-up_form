@@ -75,13 +75,29 @@ form{
     flex-direction: column;
     align-items: center;
     padding: 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    -webkit-box-shadow: 0px 11px 7px -1px rgba(46,46,46,0.46); 
+    box-shadow: 0px 11px 7px -1px rgba(46,46,46,0.46);
+}
+
+form p{
+text-align: center;
+font-size: 0.7rem;
+color: #BAB7D4;
+line-height: 1.5rem;
+}
+
+form p span{
+    color: #ff7979;
+    font-weight: 600;
 }
 
 input{
-    width: 85%;
+    width: 90%;
     padding: 1rem;
     margin-bottom: 1rem;
 }
 button{
-    width: 85%;
+    width: 90%;
 }
