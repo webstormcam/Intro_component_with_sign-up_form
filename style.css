@@ -10,3 +10,52 @@ body{
     background-image: url('imgs/bg-intro-mobile.png');
     background-color: #ff7979;
 }
+
+#website_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#into_words{
+text-align: center;
+}
+
+h1{
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+#into_words p{
+    color: #fff;
+    font-size: 0.8rem;
+    line-height: 1.3rem;
+    padding-left: 3.5rem;
+    padding-right:3.5rem;
+}
+
+#payment_section{
+    display: flex;
+    flex-direction: column;
+}
+
+#purple_section{
+    text-align: center;
+    padding-top: 1rem ;
+    padding-bottom: 1rem ;
+    font-size: 0.8rem;
+    padding-left:  4rem ;
+    padding-right: 4rem ;
+    background-color: #5E54A4;
+    border-radius: 0.5rem;
+    line-height: 1.2rem;
+}
+
+#purple_section p{
+    color: #fff;
+}
+
+#purple_section p span{
+    font-weight: 600;
+}
