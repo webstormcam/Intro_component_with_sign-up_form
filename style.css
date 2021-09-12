@@ -42,6 +42,7 @@ h1{
 #payment_section{
     display: flex;
     flex-direction: column;
+    width: 320px;
 }
 
 #purple_section{
@@ -56,6 +57,8 @@ h1{
     line-height: 1.8rem;
     -webkit-box-shadow: 0px 11px 7px -1px rgba(46,46,46,0.46); 
     box-shadow: 0px 11px 7px -1px rgba(46,46,46,0.46);
+    margin-bottom:2rem ;
+   
 }
 
 #purple_section p{
@@ -64,4 +67,21 @@ h1{
 
 #purple_section p span{
     font-weight: 600;
+}
+
+form{
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+input{
+    width: 85%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+button{
+    width: 85%;
 }
