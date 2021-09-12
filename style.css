@@ -20,6 +20,7 @@ body{
 #into_words{
 text-align: center;
 margin-top: 6rem;
+width: 320px;
 }
 
 h1{
@@ -33,10 +34,10 @@ h1{
     color: #fff;
     font-size: 1rem;
     line-height: 1.5rem;
-    padding-left: 2rem;
-    padding-right:2rem;
+  
     margin-top: 2rem;
     margin-bottom: 3rem;
+   
 }
 
 #payment_section{
@@ -86,18 +87,38 @@ text-align: center;
 font-size: 0.7rem;
 color: #BAB7D4;
 line-height: 1.5rem;
+margin-top: 1rem;
 }
 
 form p span{
+   
     color: #ff7979;
     font-weight: 600;
 }
 
 input{
-    width: 90%;
-    padding: 1rem;
-    margin-bottom: 1rem;
+    width: 95%;
+    padding: 1.2rem;
+    margin-top: 1rem;
+    border: 1px solid  #BAB7D4;
+    border-radius: 0.5rem;
 }
+
+
+input::placeholder {
+   font-size: 0.9rem;
+   font-weight: 600;
+  
+  }
 button{
-    width: 90%;
+    width: 95%;
+    font-size: 0.9rem;
+    background-color: #38CC8B;
+    color: #FFF;
+    border: 1px solid #38cc8b;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    font-weight: 600;
+   letter-spacing: 0.1rem;
+   margin-top: 1rem;
 }
