@@ -122,3 +122,24 @@ button{
    letter-spacing: 0.1rem;
    margin-top: 1rem;
 }
+
+@media screen and ( min-width:1024px){
+
+    body{
+        background-image: url('imgs/bg-intro-desktop.png');
+        display: flex;
+        justify-content: center;
+    }
+    #website_content{
+        flex-direction: row;
+        justify-content: center;
+        width: 1024px;
+    }
+
+    #into_words{
+        width: 525px;
+        }
+    #payment_section{
+        width: 540px;
+    }
+}
