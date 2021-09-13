@@ -102,6 +102,7 @@ input{
     margin-top: 1rem;
     border: 1px solid  #BAB7D4;
     border-radius: 0.5rem;
+    position: relative;
 }
 
 
@@ -122,6 +123,16 @@ button{
    letter-spacing: 0.1rem;
    margin-top: 1rem;
 }
+
+.red{
+    color: red;
+    text-align: right;
+    width: 100%;
+    margin-top: 0rem;
+    display: none;
+}
+
+
 
 @media screen and ( min-width:1024px){
 
@@ -166,4 +177,6 @@ button{
     .align{
         text-align: left;
     }
+
+
 }

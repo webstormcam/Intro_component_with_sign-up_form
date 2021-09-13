@@ -25,11 +25,15 @@
             <div id="purple_section">
                 <p><span>Try it free 7 days</span> then<br class="big">$20/mo. thereafter</p>
             </div>
-            <form action="">
-                <input type="text" placeholder="First Name">
-                <input type="text" placeholder="Last Name">
-                <input type="text" placeholder="Email Address">
-                <input type="text" placeholder="Password">
+            <form action="#" id="myForm" name='myForm' method="get" onsubmit="event.preventDefault()">
+                <input type="text" placeholder="First Name" id="fname" name="fname">
+                <p class="red" id="pname">First Name cannot be empty</p>
+                <input type="text" placeholder="Last Name" id="lname" name="lname">
+                <p class="red" id="plname">Last Name cannot be empty</p>
+                <input type="text" placeholder="Email Address" id="email" name="email">
+                <p class="red" id="pemail">Looks like this is not an email</p>
+                <input type="text" placeholder="Password" id="password" name="password">
+                <p class="red" id="pp">Password cannot be empty</p>
                 <button> CLAIM YOUR FREE TRIAL</button>
                 <p>By clicking the button, you are agreeing to <br class="big"> our <span>Terms and Services</span></p>
             </form>
