@@ -134,6 +134,7 @@ button{
         flex-direction: row;
         justify-content: center;
         width: 1024px;
+        margin-top: 4rem;
     }
 
     #into_words{
@@ -160,5 +161,9 @@ button{
 
     .big{
         display: none;
+    }
+
+    .align{
+        text-align: left;
     }
 }
