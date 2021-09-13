@@ -9,6 +9,7 @@ html{
 body{
     background-image: url('imgs/bg-intro-mobile.png');
     background-color: #ff7979;
+   
 }
 
 #website_content{
@@ -102,7 +103,7 @@ input{
     margin-top: 1rem;
     border: 1px solid  #BAB7D4;
     border-radius: 0.5rem;
-    position: relative;
+    
 }
 
 
@@ -134,6 +135,14 @@ button{
 
 .survey{
     width: 95%;
+    position: relative;
+}
+
+.error{
+    position: absolute;
+    right: 1rem;
+    top: 1.8rem;
+    display: none;
 }
 
 
