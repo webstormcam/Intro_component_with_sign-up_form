@@ -138,8 +138,27 @@ button{
 
     #into_words{
         width: 525px;
+        text-align: start;
+        margin-right: 2rem;
+        margin-left: 2rem;
         }
     #payment_section{
         width: 540px;
+       
+    }
+
+    #purple_section{
+        
+    margin-top: 4rem;
+
+    }
+
+    h1{
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+
+    .big{
+        display: none;
     }
 }
