@@ -123,7 +123,9 @@ button{
     font-weight: 600;
    letter-spacing: 0.1rem;
    margin-top: 1rem;
+   
 }
+
 
 button:hover{
     background-color: #a6d6c2;
