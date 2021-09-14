@@ -88,7 +88,7 @@ function validateForm(){
 
  }
 
- else if(value1===true && value2===true && value3===true && value4===true) {
+  if(value1===true && value2===true && value3===true && value4===true) {
     document.getElementById("myForm").submit();
  }
  
