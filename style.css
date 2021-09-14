@@ -125,6 +125,12 @@ button{
    margin-top: 1rem;
 }
 
+button:hover{
+    background-color: #a6d6c2;
+    border: 1px solid #a6d6c2;
+    cursor: pointer;
+}
+
 .red{
     color: red;
     text-align: right;
