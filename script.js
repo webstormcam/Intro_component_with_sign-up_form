@@ -37,7 +37,7 @@ function validateForm(){
     fname.style.borderWidth ='1px'
     error_icon[0].style.display ='block'
     error_msg[0].style.display ='block'
- } else if(fname_value.length>3){
+ }else if(fname_value.length>3){
    fname.style.borderWidth='1px'
    fname.style.borderColor ='#BAB7D4'
    error_icon[0].style.display ='none'
@@ -88,7 +88,7 @@ function validateForm(){
 
  }
 
- else if(value1 && value2 && value3 && value4 === true){
+ else if(value1===true && value2===true && value3===true && value4===true) {
     document.getElementById("myForm").submit();
  }
  
