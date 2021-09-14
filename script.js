@@ -34,7 +34,7 @@ function validateForm(){
     error_msg[0].style.display ='block'
  } else{
    fname.style.borderWidth='1px'
-   fname.style.borderColor ='black'
+   fname.style.borderColor ='#BAB7D4'
    error_icon[0].style.display ='none'
    error_msg[0].style.display ='none'
  }
