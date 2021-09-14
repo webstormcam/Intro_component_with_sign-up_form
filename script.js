@@ -20,7 +20,7 @@ function validateForm(){
     let error_msg = document.getElementsByClassName('red')
 
     let value1 = false
-    let value2= false
+    let value2 = false
     let value3 = false
     let value4 = false
 
@@ -79,7 +79,7 @@ function validateForm(){
     password.style.borderWidth ='1px'
     error_icon[3].style.display ='block'
     error_msg[3].style.display ='block'
- }else if(lname_value.length>3){
+ }else if(password_value.length>3){
    password.style.borderWidth='1px'
    password.style.borderColor ='#BAB7D4'
    error_icon[3].style.display ='none'
